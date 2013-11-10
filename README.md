@@ -1,4 +1,0 @@
-dev
-===
-
-vakau-dev-environment
