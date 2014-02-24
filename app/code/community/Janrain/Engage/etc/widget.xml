@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<widgets>
+    <engage_auth type="engage/auth" translate="name description" module="engage">
+        <name>Janrain Engage Login</name>
+        <description type="desc">Adds a link to open the Engage authentication dialog</description>
+    </engage_auth>
+    <engage_share type="engage/share" translate="name description" module="engage">
+        <name>Janrain Engage Social Sharing</name>
+        <description type="desc">Adds a links to share content via Engage</description>
+        <parameters>
+            <share_text>
+                <required>0</required>
+                <visible>1</visible>
+                <label>Share Text</label>
+                <description>The default text to share in the Social Sharing widget (i.e. Check this out!)</description>
+                <type>text</type>
+            </share_text>
+            <button_text>
+                <required>0</required>
+                <visible>1</visible>
+                <label>Button Text</label>
+                <description>The text to appear in the share button. Defaults to 'Share on'</description>
+                <type>text</type>
+            </button_text>
+        </parameters>
+    </engage_share>
+</widgets>
